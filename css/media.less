@@ -1,0 +1,284 @@
+@media (max-width: 1200px) {
+    .lenovo-logo {
+        max-width: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #utp.thinkbook {
+        .container {
+            padding-top: 10px;
+        }
+        .container-inner {
+            flex-wrap: wrap;
+            padding-bottom: 50px;
+            .left {
+                width: 100%;
+                max-width: 100%;
+                text-align: center;
+                p {
+                    margin-bottom: 20px;
+                }
+                .windows-hello {
+                    margin: 0 auto 20px;
+                }
+            }
+        }
+        .note {
+            text-align: center;
+            padding-top: 40px;
+            img {
+                position: static;
+                width: 100%;
+                max-width: 380px;
+            }
+        }
+    }
+}
+
+@media (max-width: 920px) {
+    #about {
+        #about-slides, #about-slides.t, #about-slides.e, #about-slides.thinkbook {
+            .slide {
+                &.slide1, &.slide2, &.slide3 {
+                   background-image: none;
+                }
+                .right {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #contacts {
+        .right {
+            img {
+                &:first-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lenovo-logo {
+        display: none;
+    }
+    header {
+        .container {
+            padding-left: 15px;
+        }
+        .logo {
+            max-width: 80px;
+            img {
+                width: 100%;
+            }
+        }
+        nav {
+            li {
+                margin: 0 5px;
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    #utp {
+        .container {
+            padding-top: 30px;
+        }
+        .container-inner {
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+        }
+        .left, .note {
+            width: 100%;
+            max-width: 100%;
+        }
+        .left {
+            text-align: center;
+        }
+        .note {
+            text-align: center;
+            img {
+                position: static;
+                width: 100%;
+                max-width: 410px;
+            }
+        }
+        .windows-hello {
+            margin: 0 auto 40px;
+        }
+    }
+    #about {
+        #about-slides {
+            .slide {
+                min-height: 340px;
+                padding-bottom: 60px;
+                padding-top: 20px;
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    #note-slider {
+        p {
+            margin-bottom: 10px;
+        }
+        #slides {
+            .owl-item {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #testing {
+        h2 {
+            width: 100%;
+            max-width: 100%;
+            font-size: 20px;
+            &::before, &::after {
+                display: none;
+            }
+        }
+        .items {
+            .item {
+                width: 48%;
+                margin-bottom: 20px;
+                .text {
+                    h3 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    #techniques {
+        padding-top: 20px;
+        h2 {
+            font-size: 30px;
+        }
+        table {
+            tr {
+                th {
+                    font-size: 16px;
+                    width: 100%;
+                }
+                td {
+                    font-size: 12px;
+                    width: 100%;
+                    &:first-child {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+    #contacts {
+        .container-inner {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .item {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #techniques {
+        .container-inner {
+            overflow: hidden;
+            overflow-x: auto;
+        }
+    }
+    #contacts {
+        .container-inner {
+            .item {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+    footer {
+        .container-inner {
+            flex-wrap: wrap;
+            .center {
+                order: 0;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .left {
+                order: 1;
+                width: 50%;
+            }
+            .right {
+                order: 2;
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        .logo {
+            max-width: 60px;
+        }
+        nav {
+            li {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    #utp {
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .windows-hello {
+            width: 100%;
+        }
+    }
+    #note-slider {
+        padding-top: 25px;
+        h2 {
+            font-size: 30px;
+        }
+    }
+    #about {
+        #about-slides {
+            .slide {
+                min-height: 400px;
+                h2 {
+                    padding-left: 0;
+                    font-size: 25px;
+                }
+                p {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+    #testing {
+        .items {
+            .item {
+                .text {
+                    padding-left: 7px;
+                }
+            }
+        }
+    }
+    #techniques {
+        table {
+            font-size: 14px;
+        }
+    }
+}
